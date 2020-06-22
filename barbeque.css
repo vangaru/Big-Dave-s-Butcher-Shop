@@ -1,0 +1,116 @@
+body{
+	margin: 0;
+	background-color: #171717;
+}
+
+header{
+	background-color: #811A12;
+	box-shadow: 0px 3px 5px 0px white;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+.tile{
+	height: 110px;
+	line-height: 110px;
+}
+
+.container{
+	width: 100%;
+	max-width: 1200px;
+	padding: 15px;
+	margin: 0 auto;
+}
+
+nav{
+	float: right;
+	font-size: 16pt;
+	font-family: Sitka Small;
+}
+
+nav ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+nav li{
+	display: inline-block;
+	text-decoration: underline;
+	text-shadow: 1px 1px 2px black, 0 0 1em red;
+}
+
+.logo{
+	font-weight: bolder;
+	font-size: 60pt;
+	font-family: Sitka Small;
+	font-style: italic;
+	-webkit-text-stroke: 2px white;
+	text-shadow: 1px 1px 2px black, 0 0 1em black;
+}
+
+.menu-title{
+	text-align: center;
+	color: white;
+	font-family: Sitka Small;
+	font-size: 60pt;
+	font-style: italic;
+	font-weight: bolder;
+	text-shadow: 1px 1px 2px black, 0 0 1em black;
+}
+
+.menu-item{
+	padding-top: 20px;
+	height: 320px;
+	box-shadow: 0 6px 4px -4px gray;
+}
+
+.last{
+	box-shadow: none;
+}
+
+.description{
+	font-family: Sitka Small;
+	font-size: 20pt;
+	color: white;
+	display: inline-block;
+}
+
+.Name{
+	font-size: 25pt;
+	text-decoration: underline;
+	text-shadow: 1px 1px 2px black, 0 0 1em gray;	
+}
+
+img{
+	width: 300px;
+	height: 300px;
+	box-shadow: 0 0 25px 2px gray;
+}
+
+.foto{
+	float: right;
+	display: inline-block;
+}
+
+footer{
+	background-color: #811A12;
+	height: 100px;
+	width: 100%;
+	box-shadow: 0px -3px 5px 0px white;
+}
+
+.foota{
+	text-align: center;
+	padding-top: 40px;
+}
+
+.copyright{
+	font-family: Sitka Small;
+	font-size: 16pt;
+	font-weight: bolder;
+	color: white;
+}

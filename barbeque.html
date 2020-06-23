@@ -3,50 +3,80 @@
 	<head>
 		<meta charset = "UTF-8"/>
 		<script src = "https://code.jquery.com/jquery-3.1.1.js"></script>
-		<script src = "CursorOnAnimations.js"></script>
-		<link rel = "stylesheet" href = "home.css"/>
-		<title>Big Dave's Butcher Shop</title>
+		<script src = "CursorOnNavigation.js"></script>
+		<link rel = "stylesheet" href = "barbeque.css"/>
+		<title> Big Dave's Barbeque </title>
 	</head>
 	<body>
-
-		<!-- ШАПКА САЙТА -->
-
 		<header>
 			<div class = "container tile">
-				<span class = "logo"> Big Dave's Butcher Shop </span>
+				<span class = "logo"> Big Dave's Barbeque </span>
 				<nav>
 					<ul>
-						<a href = "home.html"><li id = "home-li"> Home </li></a>
+						<a href = "home.html" target = "_blank"><li id = "home-li"> Home </li></a>
 						<a href = "author.html" target = "_blank"><li id = "author-li"> Author </li></a>
 					</ul>
 				</nav>
 			</div>
-			<div class = "container tile2">
-				<img src = "dave.jpg" class = "big-dave"/>
-				<ul class = "barbeque-motorcycles">
-					<li>Barbeque</li>
-					<li>Motorcycles</li>
-				</ul>
-			</div>
 		</header>
 
-		<!-- ОСНОВНОЕ СОДЕРЖИМОЕ -->
-
-		<div class = "main">
-			<div class = "container main">
-				<p class = "offers">Offers</p>
-				<div class = "photos">
-					<a href = "workshop.html" target = "_blank"><img src = "moto.jpg" class = "moto-ph"/></a>
-					<a href = "barbeque.html" target = "_blank"><img src = "barbeque.jpg" class = "barbeque-ph"/></a>
+		<div class = "container main">
+			<p class = "menu-title"> Menu </p>
+			<div class = "menu-item">
+				<div class = "description">
+					<span class = "Name">BBQ Pulled Pork Sandwich</span><br/><br/>
+					Price: 5.99    
 				</div>
-				<div class = real-offers>
-					<a href = "workshop.html" target = "_blank"><span class = "fix">Motorcycles Fix</span></a>
-					<a href = "barbeque.html" target = "_blank"><span class = "cooking">Barbeque</span></a>
+				<div class = "foto">
+					<img src = "bbqPullPorkSandwich.jpg"/>
+				</div>
+			</div>
+			<div class = "menu-item">
+				<div class = "description">
+					<span class = "Name">Baked Beans</span><br/><br/>
+					Price: 4.99    
+				</div>
+				<div class = "foto">
+					<img src = "BakedBeans.jpg"/>
+				</div>
+			</div>
+			<div class = "menu-item">
+				<div class = "description">
+					<span class = "Name">Coleslaw</span><br/><br/>
+					Price: 2.50    
+				</div>
+				<div class = "foto">
+					<img src = "Coleslaw.jpg"/>
+				</div>
+			</div>
+			<div class = "menu-item">
+				<div class = "description">
+					<span class = "Name">Guacamole & Chips</span><br/><br/>
+					Price: 3.40    
+				</div>
+				<div class = "foto">
+					<img src = "guacamoleChips.jpg"/>
+				</div>
+			</div>
+			<div class = "menu-item">
+				<div class = "description">
+					<span class = "Name">Mac & Cheese</span><br/><br/>
+					Price: 5.99    
+				</div>
+				<div class = "foto">
+					<img src = "MacCheese.jpg"/>
+				</div>
+			</div>
+			<div class = "menu-item last">
+				<div class = "description">
+					<span class = "Name">Salsa & Chips</span><br/><br/>
+					Price: 3.20    
+				</div>
+				<div class = "foto">
+					<img src = "SalsaChips.jpg"/>
 				</div>
 			</div>
 		</div>
-
-		<!-- ФУТЕР -->
 
 		<footer>
 			<div class = "container foota">

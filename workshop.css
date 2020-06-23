@@ -1,0 +1,141 @@
+body{
+	margin: 0;
+	background-color:  #171717;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+header{
+	background-color: #811A12;
+	box-shadow: 0px 3px 5px 0px white;
+}
+
+.container{
+	width: 100%;
+	max-width: 1200px;
+	padding: 15px;
+	margin: 0 auto;
+}
+
+.tile{
+	height: 110px;
+	line-height: 110px;
+	box-shadow: 0 6px 4px -4px white;
+}
+
+nav{
+	float: right;
+	font-size: 16pt;
+	font-family: Sitka Small;
+}
+
+nav ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+nav li{
+	display: inline-block;
+	text-decoration: underline;
+	text-shadow: 1px 1px 2px black, 0 0 1em red;
+}
+
+.logo{
+	font-weight: bolder;
+	font-size: 60pt;
+	font-family: Sitka Small;
+	font-style: italic;
+	-webkit-text-stroke: 2px white;
+	text-shadow: 1px 1px 2px black, 0 0 1em black;
+}
+
+.artcle{
+	text-align: center;
+	color: white;
+	font-family: Sitka Small;
+	font-size: 50pt;
+	font-style: italic;
+	font-weight: bolder;
+	text-shadow: 1px 1px 2px black, 0 0 1em black;
+}
+
+.item{
+	padding-top: 20px;
+	height: 320px;
+	box-shadow: 0 6px 4px -4px gray;
+}
+
+.last{
+	box-shadow: none;
+}
+
+.text{
+	display: inline-block;
+	font-family: Sitka Small;
+	float: left;
+	color: white;
+	width: 700px;
+}
+
+.brand{
+	font-size: 30pt;
+	text-decoration: underline;
+	text-shadow: 1px 1px 2px black, 0 0 1em gray;	
+}
+
+.description{
+	font-size: 15pt;
+}
+
+img{
+	width: 300px;
+	height: 300px;
+	box-shadow: 0 0 25px 2px gray;
+}
+
+.foto{
+	float: right;
+	display: inline-block;
+}
+
+.last{
+	box-shadow: none;
+}
+
+.s-up{
+	padding-top: 70px;
+	text-align: center;
+}
+
+.sign-up{
+	font-weight: bolder;
+	font-style: italic;
+	text-shadow: 1px 1px 2px black, 0 0 1em gray;
+	font-family: Sitka Small;
+	font-size: 40pt;
+	color: white;
+}
+
+footer{
+	margin-top: 100px;
+	background-color: #811A12;
+	height: 100px;
+	width: 100%;
+	box-shadow: 0px -3px 5px 0px white;
+}
+
+.foota{
+	text-align: center;
+	padding-top: 40px;
+}
+
+.copyright{
+	font-family: Sitka Small;
+	font-size: 16pt;
+	font-weight: bolder;
+	color: white;
+}

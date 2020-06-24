@@ -1,0 +1,59 @@
+body{
+	background-color: #171717;
+}
+
+.container{
+	width: 100%;
+	max-width: 700px;
+	height: 400px;
+	border-radius: 10px;
+	margin: 0 auto;
+	padding: 15px;
+	margin-top: 13%;
+	background-color: black;
+	border: 3px solid white;
+	box-shadow: 0 0 25px 2px white;
+}
+
+.form-div{
+	width: 100%;
+	max-width: 550px;
+	margin: 0 auto;
+	padding: 15px;
+	margin-top: 47px;
+}
+
+input{
+	border-radius: 5px;
+}
+
+.date{
+	margin-top: 15px;
+}
+
+.phone{
+	margin-top: 15px;
+}
+
+input{
+	font-size: 20pt;
+	font-family: Sitka Small;
+	color: white;
+	background-color: #811A12;
+	border: none;
+	box-sizing: border-box;
+	float: left;
+	width: 550px;
+	height: 80px;
+}
+
+.send{
+	border-radius: 2px;
+	font-size: 12pt;
+	width: 70px;
+	height: 20px;
+	margin-top: 10px;
+	float: right;
+}
+
+ 

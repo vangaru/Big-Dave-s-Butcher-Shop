@@ -1,0 +1,141 @@
+body{
+	margin: 0;
+	background-color: #171717;
+}
+
+header{
+	background-color: #811A12;
+	box-shadow: 0px 3px 5px 0px white;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+.tile{
+	height: 110px;
+	line-height: 110px;
+}
+
+.container{
+	width: 100%;
+	max-width: 1200px;
+	padding: 15px;
+	margin: 0 auto;
+}
+
+nav{
+	float: right;
+	font-size: 16pt;
+	font-family: Sitka Small;
+}
+
+nav ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+nav li{
+	display: inline-block;
+	text-decoration: underline;
+	text-shadow: 1px 1px 2px black, 0 0 1em red;
+}
+
+.logo{
+	font-weight: bolder;
+	font-size: 60pt;
+	font-family: Sitka Small;
+	font-style: italic;
+	-webkit-text-stroke: 2px white;
+	text-shadow: 1px 1px 2px black, 0 0 1em black;
+}
+
+.reviews-list{
+	text-align: center;
+	color: white;
+	font-family: Sitka Small;
+	font-size: 50pt;
+	font-style: italic;
+	font-weight: bolder;
+	text-shadow: 1px 1px 2px black, 0 0 1em black;
+}
+
+.review{
+	color: white;
+	font-family: Sitka Small;
+}
+
+.name-datetime{
+	font-size: 20pt;
+}
+
+.text{
+	font-size: 15pt;
+}
+
+.hr-before-reviews{
+	margin-top: 100px;
+}
+
+.form-div{
+	width: 900px;
+}
+
+.name-form{
+	background-color: black;
+	font-family: Sitka Small;
+	font-size: 20pt;
+	font-weight: bolder;
+	color: white;
+	border: 1px solid gray;
+	border-radius: 3px;
+	box-sizing: border-box;
+	width: 300px;
+	height: 50px;
+}
+
+.text-form{
+	background-color: black;
+	font-family: Sitka Small;
+	font-size: 15pt;
+	color: white;
+	border: 1px solid gray;
+	border-radius: 3px;
+	box-sizing: border-box;
+	width: 900px;
+	height: 350px;
+}
+
+.send{
+	background-color: black;
+	color: white;
+	font-family: Sitka Small;
+	border-radius: 2px;
+	font-size: 12pt;
+	width: 70px;
+	height: 22px;
+	cursor: pointer;
+	float: right;
+}
+
+footer{
+	margin-top: 100px;
+	background-color: #811A12;
+	height: 100px;
+	width: 100%;
+	box-shadow: 0px -3px 5px 0px white;
+}
+
+.foota{
+	text-align: center;
+	padding-top: 40px;
+}
+
+.copyright{
+	font-family: Sitka Small;
+	font-size: 16pt;
+	font-weight: bolder;
+	color: white;
+}

@@ -140,6 +140,19 @@ nav li{
 	text-shadow: 1px 1px 2px black, 0 0 1em black;
 }
 
+.revs{
+	color: white;
+	text-align: center;
+	font-size: 50pt;
+	font-family: Sitka Small;
+	margin-top: 50px
+}
+
+.revs-a{
+	color:white;
+	font-style: italic;
+	font-weight: bolder;
+}
 
 footer{
 	background-color: #811A12;
